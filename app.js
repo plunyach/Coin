@@ -74,7 +74,7 @@ app.get('/', function (req, res) {
             
         default:
             res.contentType('application/json');
-            res.end(JSON.stringify("DGCOIN node is ready for Mainnet..."));
+            res.end(JSON.stringify("Trade node is ready for Testnet..."));
     }
 });
 ///------ERC20_Start
