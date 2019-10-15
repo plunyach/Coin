@@ -1,28 +1,4 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
  
-@plunyach 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-1
-00plunyach/wolfex
- Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights Settings
-wolfex/app.js
-@plunyach plunyach Update app.js
-5652599 5 days ago
-@Nitslove@plunyach
-We found a potential security vulnerability in one of your dependencies.
-Only the owner of this repository can see this message.
-
-295 lines (253 sloc)  16.9 KB
-  
 //This module help to listen request
 var express = require('express');
 var app = express();
@@ -99,7 +75,7 @@ app.get('/', function (req, res) {
             
         default:
             res.contentType('application/json');
-            res.end(JSON.stringify("Trade node is ready for Testnet..."));
+            res.end(JSON.stringify("coin node is ready for Testnet..."));
     }
 });
 ///------ERC20_Start
